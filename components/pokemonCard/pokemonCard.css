@@ -1,0 +1,11 @@
+.PokemonCard {
+  height: 200px;
+  width: 200px;
+  padding: 2rem 1rem;
+  border: 1px solid lightcyan;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
