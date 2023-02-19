@@ -7,3 +7,25 @@
 
   font-size: 4rem;
 }
+
+.start_btn {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  font-size: 4rem;
+  padding: 1rem 2rem;
+
+  background-color: #c41111;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.start_btn:hover {
+  background-color: #b50303;
+}
+
+.start_btn:active {
+  background-color: #8f0000;  
+}

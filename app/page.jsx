@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <main className={styles.main}>
-      <Link href={'/pokemons'}>Start</Link>
+      <Link className={styles.start_btn} href={'/pokemons'}>Start</Link>
     </main>
   )
 }
