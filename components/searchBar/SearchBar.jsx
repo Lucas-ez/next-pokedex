@@ -1,8 +1,11 @@
-import React from 'react'
+'use client'
+import './searchBar.css'
 
-function SearchBar() {
+function SearchBar({searchInput, setSearchInput}) {
   return (
-    <div>SearchBar</div>
+    <div className='SearchBar'>
+      <input type="text" value={searchInput} onChange={(e) => setSearchInput(e.target.value)}/>
+    </div>
   )
 }
 

@@ -2,10 +2,11 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  justify-content: space-between;
+  gap: 1rem;
   width: 100%;
   max-width: var(--max-width);
-  padding: 3rem;
+  padding: 2rem;
 
   background-color: #f8f8f8;
 }

@@ -27,7 +27,7 @@ function PokemonCard({pokemon}) {
         <div></div> :
         <img src={`${pokemonInfo.sprites.front_default}`} alt={pokemonInfo.name} />
       }
-      <div className="name">{pokemon.name}</div>
+      <span className="name">{pokemon.name}</span>
     </Link>
   )
 }

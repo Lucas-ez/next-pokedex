@@ -1,0 +1,19 @@
+.SearchBar input {
+  font-size: 1.4rem;
+  padding: 0.2rem 0.4rem;
+  border: 2px solid #ccc;
+  color: #23263b;
+  background: #e7e7e7;;
+  
+  transition: border 100ms ease-in, background-color 100ms ease-in;
+}
+
+.SearchBar input:hover {
+  border-color: #ccc;
+}
+
+.SearchBar input:focus {
+  border-color: #cecece;
+  background: #fff;
+  outline: none;
+}
